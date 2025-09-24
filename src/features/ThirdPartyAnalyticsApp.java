@@ -7,6 +7,9 @@ public class ThirdPartyAnalyticsApp {
         VerifiedUserProfile profileVerified = new VerifiedUserProfile();
         UserProfile profile = new UserProfile();
 
+//        Public dan Protected
+        profileVerified.displayContactInfo();
+
         System.out.println("=== ThirdPartyAnalyticsApp (external app, not a subclass) ===");
 
         // Public
@@ -21,7 +24,5 @@ public class ThirdPartyAnalyticsApp {
         // Private
         // System.out.println(profile.passwordHash);
 
-//        Public dan Default
-        profileVerified.displayContactInfo();
     }
 }
